@@ -1,6 +1,6 @@
 { settings, ... }: {
   imports = [
-    ./${settings.profile}.nix
+    ./${settings.profile}
   ];
   users.users.${settings.username} = {
     isNormalUser = true;
