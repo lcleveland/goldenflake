@@ -16,5 +16,6 @@
     ./time.nix
     ./nvidia.nix
     ./git.nix
+    ./podman.nix
   ];
 }
