@@ -17,5 +17,6 @@
     ./nvidia.nix
     ./git.nix
     ./podman.nix
+    ./libvirtd.nix
   ];
 }

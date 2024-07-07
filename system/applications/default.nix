@@ -6,5 +6,6 @@
     ./podman_compose.nix
     ./distrobox.nix
     ./boxbuddy.nix
+    ./virt_manager.nix
   ];
 }

@@ -13,7 +13,7 @@
         username = "lcleveland";
         name = "Lyle Cleveland";
         email = "lyle.cleveland@proton.me";
-        user_groups = [ "wheel" "networkmanager" ];
+        user_groups = [ "wheel" "networkmanager" "libvirtd" ];
         default_browser = "";
         state_version = "24.05";
         nvidia = true;
