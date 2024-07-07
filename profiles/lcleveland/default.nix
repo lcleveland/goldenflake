@@ -1,4 +1,4 @@
-{ settings, ... }: {
+{ home-manager, settings, ... }: {
   imports = [
     ./${settings.profile}
   ];
@@ -6,5 +6,8 @@
     isNormalUser = true;
     description = settings.name;
     extraGroups = settings.user_groups;
+  };
+  home-manager.users.${settings.username} = {
+    home.stateVersion = settings.state_version;
   };
 }
