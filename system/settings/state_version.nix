@@ -1,0 +1,3 @@
+{ ... }: {
+  system.stateVersion = "unstable";
+}
