@@ -4,5 +4,7 @@
     ./terminals/${settings.default_terminal}.nix
     ./git_credential_oauth.nix
     ./podman_compose.nix
+    ./distrobox.nix
+    ./boxbuddy.nix
   ];
 }
