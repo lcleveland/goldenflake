@@ -1,1 +1,6 @@
-{ home-manager, settings, ... }: { }
+{ ... }: {
+  imports = [
+    ./applications
+    ./settings
+  ];
+}
