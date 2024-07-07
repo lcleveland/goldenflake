@@ -7,5 +7,6 @@
     ./distrobox.nix
     ./boxbuddy.nix
     ./virt_manager.nix
+    ./adwaita_icon_theme.nix
   ];
 }
