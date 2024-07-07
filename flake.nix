@@ -22,7 +22,7 @@
         default_terminal = "ptyxis";
         profile = "home";
         wayland = true;
-        qt_style = "Adwaita-dark";
+        qt_style = "adwaita-dark";
       };
     in
     {
