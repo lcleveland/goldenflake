@@ -17,6 +17,7 @@
     gnome-terminal
     gnome-console
     gnome-connections
+    gnome-text-editor
     gedit
     epiphany
     geary
