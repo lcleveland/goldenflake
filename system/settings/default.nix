@@ -18,6 +18,5 @@
     ./git.nix
     ./podman.nix
     ./libvirtd.nix
-    ./stylix.nix
   ];
 }
