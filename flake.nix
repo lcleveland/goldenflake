@@ -1,7 +1,7 @@
 {
   description = "A system configuration meant to bring Fedora Silverblue concepts to NixOS with imrovements";
 
-  outputs = inputs@{ self, nixpkgs, home-manager, stylix, ... }:
+  outputs = inputs@{ self, nixpkgs, home-manager, ... }:
     let
       settings = {
         system = "x86_64-linux";
@@ -32,7 +32,6 @@
           ./system
           ./profiles/${settings.username}
           home-manager.nixosModules.home-manager
-          stylix.nixosModules.stylix
         ];
         specialArgs = {
           inherit settings;
@@ -41,7 +40,6 @@
     };
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
-    stylix.url = "github:danth/stylix";
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
   };
