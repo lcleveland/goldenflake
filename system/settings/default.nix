@@ -1,4 +1,4 @@
-{ ... }: {
+{ settings, ... }: {
   imports = [
     /etc/nixos/hardware-configuration.nix
     ./flatpak.nix
@@ -18,5 +18,6 @@
     ./git.nix
     ./podman.nix
     ./libvirtd.nix
+    ./${settings.cpu_vendor}.nix
   ];
 }

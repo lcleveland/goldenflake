@@ -5,6 +5,7 @@
     let
       settings = {
         system = "x86_64-linux";
+        cpu_vendor = "amd";
         hostname = "DREAM";
         timezone = "America/Chicago";
         locale = "en_US.UTF-8";
