@@ -1,6 +1,7 @@
 { settings, ... }: {
   imports = [
     /etc/nixos/hardware-configuration.nix
+    ./fingerprint.nix
     ./kernel.nix
     ./ppd.nix
     ./flatpak.nix
