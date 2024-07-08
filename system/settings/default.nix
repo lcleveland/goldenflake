@@ -1,6 +1,7 @@
 { settings, ... }: {
   imports = [
     /etc/nixos/hardware-configuration.nix
+    ./kernel.nix
     ./flatpak.nix
     ./allow_unfree.nix
     ./boot_loader.nix
