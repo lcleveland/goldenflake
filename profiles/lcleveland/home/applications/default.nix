@@ -10,5 +10,6 @@
     ./lazygit.nix
     ./nodejs.nix
     ./ripgrep.nix
+    ./pynvim.nix
   ];
 }
