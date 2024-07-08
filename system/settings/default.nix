@@ -2,6 +2,7 @@
   imports = [
     /etc/nixos/hardware-configuration.nix
     ./kernel.nix
+    ./ppd.nix
     ./flatpak.nix
     ./allow_unfree.nix
     ./boot_loader.nix
