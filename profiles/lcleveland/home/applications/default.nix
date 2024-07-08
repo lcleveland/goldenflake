@@ -12,5 +12,6 @@
     ./ripgrep.nix
     ./pynvim.nix
     ./tree_sitter.nix
+    ./rustup.nix
   ];
 }
