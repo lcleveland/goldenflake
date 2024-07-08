@@ -8,5 +8,8 @@
     ./boxbuddy.nix
     ./virt_manager.nix
     ./adwaita_icon_theme.nix
+    ./appindicator.nix
+    ./blur_my_shell.nix
+    ./dash_to_panel.nix
   ];
 }
