@@ -11,5 +11,6 @@
     ./appindicator.nix
     ./blur_my_shell.nix
     ./dash_to_panel.nix
+    ./gcc.nix
   ];
 }
