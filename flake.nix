@@ -37,6 +37,7 @@
         ];
         specialArgs = {
           inherit settings;
+          inherit inputs;
         };
       };
     };
