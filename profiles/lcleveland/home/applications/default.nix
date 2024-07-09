@@ -2,6 +2,7 @@
   imports = [
     ./gsnap.nix
     ./bottom.nix
+    ./nodejs_neovim.nix
     ./fira_code_nerdfont.nix
     ./gdu.nix
     ./l2tp.nix
