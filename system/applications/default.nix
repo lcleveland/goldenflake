@@ -12,5 +12,6 @@
     ./blur_my_shell.nix
     ./dash_to_panel.nix
     ./gcc.nix
+    ./clipboard_indicator.nix
   ];
 }

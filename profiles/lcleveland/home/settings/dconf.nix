@@ -8,6 +8,7 @@
           gsnap.extensionUuid
           dash-to-panel.extensionUuid
           appindicator.extensionUuid
+          clipboard-indicator.extensionUuid
         ];
       };
       "org/gnome/desktop/interface".color-scheme = "prefer-dark";
