@@ -1,3 +1,5 @@
-{ ... }: {
-  programs.neovim.withNodeJs = true;
+{ pkgs, ... }: {
+  pkgs.neovim.override = {
+    withNodeJs = true;
+  };
 }
