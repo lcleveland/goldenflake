@@ -1,7 +1,6 @@
 { ... }: {
   imports = [
     ./gsnap.nix
-    ./logitech.nix
     ./bottom.nix
     ./fira_code_nerdfont.nix
     ./gdu.nix
