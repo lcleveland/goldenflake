@@ -1,3 +1,5 @@
-{ pkgs, settings, ... }: {
-  home-manager.users.${settings.username}.home.packages = with pkgs; [ nodePackages.neovim ];
+{ pkgs, ... }: {
+  environment.systemPackages = with pkgs; [
+    nodePackages_latest.neovim
+  ];
 }
