@@ -5,7 +5,6 @@
     ./kernel.nix
     ./ppd.nix
     ./flatpak.nix
-    ./virt_manager.nix
     ./allow_unfree.nix
     ./boot_loader.nix
     ./desktop_environment.nix
