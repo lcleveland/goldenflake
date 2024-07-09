@@ -1,0 +1,3 @@
+{ ... }: {
+  programs.neovim.withNodeJs = true;
+}
