@@ -1,7 +1,7 @@
 {
   description = "A system configuration meant to bring Fedora Silverblue concepts to NixOS with imrovements";
 
-  outputs = inputs@{ self, nixpkgs, home-manager, ... }:
+  outputs = inputs@{ self, nixpkgs, home-manager, nixvim, ... }:
     let
       settings = {
         system = "x86_64-linux";
@@ -34,7 +34,6 @@
           ./system
           ./profiles/${settings.username}
           home-manager.nixosModules.home-manager
-          <nixvim>.homeManagerModules.nixvim
         ];
         specialArgs = {
           inherit settings;
