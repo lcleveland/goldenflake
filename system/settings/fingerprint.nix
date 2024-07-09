@@ -1,3 +1,3 @@
-{ ... }: {
-  services.fprintd.enable = true;
+{ settings, ... }: {
+  services.fprintd.enable = settings.enable_fingerprint;
 }

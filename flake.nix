@@ -24,6 +24,7 @@
         profile = "home";
         wayland = true;
         qt_style = "adwaita-dark";
+        enable_fingerprint = false;
       };
     in
     {
