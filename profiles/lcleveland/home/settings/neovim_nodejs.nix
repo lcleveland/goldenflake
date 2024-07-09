@@ -1,5 +1,5 @@
-{ ... }: {
-  nixpkgs.neovim.override = {
+{ settings, ... }: {
+  home-manager.users.${settings.username}.programs.neovim = {
     withNodeJs = true;
   };
 }
