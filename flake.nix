@@ -34,6 +34,7 @@
           ./system
           ./profiles/${settings.username}
           home-manager.nixosModules.home-manager
+          <nixvim>.homeManagerModules.nixvim
         ];
         specialArgs = {
           inherit settings;
