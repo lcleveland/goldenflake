@@ -16,7 +16,7 @@
         email = "lyle.cleveland@proton.me";
         user_groups = [ "wheel" "networkmanager" "libvirtd" ];
         default_browser = "";
-        state_version = "24.11";
+        state_version = "24.05";
         nvidia = true;
         nvidia_driver = "beta";
         default_editor = "neovim";

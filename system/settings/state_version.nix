@@ -1,3 +1,3 @@
-{ ... }: {
-  system.stateVersion = "unstable";
+{ settings, ... }: {
+  system.stateVersion = settings.state_version;
 }
