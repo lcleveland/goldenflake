@@ -3,6 +3,7 @@
     ./gsnap.nix
     ./bottom.nix
     ./fira_code_nerdfont.nix
+    ./icedteam_web.nix
     ./gdu.nix
     ./l2tp.nix
     ./lazygit.nix
