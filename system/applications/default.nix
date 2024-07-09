@@ -13,5 +13,6 @@
     ./dash_to_panel.nix
     ./gcc.nix
     ./clipboard_indicator.nix
+    ./wl_clipboard.nix
   ];
 }
