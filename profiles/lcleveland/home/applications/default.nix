@@ -1,6 +1,7 @@
 { ... }: {
   imports = [
     ./gsnap.nix
+    ./solaar.nix
     ./logitech.nix
     ./bottom.nix
     ./fira_code_nerdfont.nix
