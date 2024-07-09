@@ -1,5 +1,5 @@
-{ pkgs, ... }: {
-  pkgs.neovim.override = {
+{ ... }: {
+  nixpkgs.neovim.override = {
     withNodeJs = true;
   };
 }
