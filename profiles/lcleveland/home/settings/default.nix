@@ -4,5 +4,6 @@
     ./steam.nix
     ./dconf.nix
     ./nixvim.nix
+    ./strongswan.nix
   ];
 }
