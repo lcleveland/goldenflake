@@ -50,6 +50,10 @@
 					enable = true;
 					autostart = true;
 				};
+				nixd = {
+					enable = true;
+					autostart = true;
+				};
 			};
 		};
 		lsp-format = {
