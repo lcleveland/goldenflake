@@ -90,6 +90,9 @@
             };
           };
         };
+        nvim-tree = {
+          enable = true;
+        };
       };
     };
   };
