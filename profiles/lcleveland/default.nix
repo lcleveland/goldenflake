@@ -7,6 +7,7 @@
     description = settings.name;
     extraGroups = settings.user_groups;
   };
+  home-manager.useGloablPkgs = true;
   home-manager.users.${settings.username} = {
     home.username = settings.username;
     home.stateVersion = settings.state_version;
