@@ -40,6 +40,9 @@
 		cmp-nvim-lsp = {
 			enable = true;
 		};
+		conform-nvim = {
+			enable = true;
+		};
 		treesitter = {
 			enable = true;
 		};
