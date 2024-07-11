@@ -69,6 +69,10 @@
 		lsp-lines = {
 			enable = true;
 		};
+		lspkind = {
+			enable = true;
+			cmp.enable = true;
+		};
 		gitsigns = {
 			enable = true;
 		};
