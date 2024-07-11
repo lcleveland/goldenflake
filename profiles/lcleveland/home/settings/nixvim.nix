@@ -69,12 +69,23 @@
 		lsp-lines = {
 			enable = true;
 		};
+		lspsaga = {
+			enable = true;
+		};
 		lspkind = {
 			enable = true;
 			cmp.enable = true;
 		};
 		gitsigns = {
 			enable = true;
+		};
+		none-ls = {
+			enable = true;
+			sources = {
+				formatting = {
+					nixpkgs_fmt.enable = true;
+				};
+			};
 		};
 	};
     };
