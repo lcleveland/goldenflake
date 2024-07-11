@@ -20,7 +20,7 @@
 			settings = {
 				sources = [
 					{
-						"codeium"
+						"codeium";
 					};
 				];
 			};
