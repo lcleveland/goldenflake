@@ -45,6 +45,9 @@
 		};
 		treesitter = {
 			enable = true;
+			settings = {
+				auto_install = true;
+			};
 		};
 		lsp = {
 			enable = true;
