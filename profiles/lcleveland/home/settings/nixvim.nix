@@ -58,6 +58,9 @@
 		lsp-lines = {
 			enable = true;
 		};
+		gitsigns = {
+			enable = true;
+		};
 	};
     };
   };
