@@ -17,9 +17,11 @@
 		};
 		cmp = {
 			enable = true;
-			sources = [
-				"codeium"
-			];
+			settings = {
+				sources = [
+					"codeium"
+				];
+			};
 		};
 	};
     };
