@@ -21,7 +21,7 @@
 				sources = [
 					{
 						"codeium";
-					};
+					}
 				];
 			};
 		};
