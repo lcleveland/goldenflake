@@ -17,6 +17,9 @@
 		};
 		cmp = {
 			enable = true;
+			sources = [
+				"codeium"
+			];
 		};
 	};
     };
