@@ -19,7 +19,9 @@
 			enable = true;
 			settings = {
 				sources = [
-					"codeium"
+					{
+						"codeium"
+					};
 				];
 			};
 		};
