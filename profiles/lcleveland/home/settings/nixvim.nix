@@ -7,6 +7,10 @@
     	enable = true;
 	defaultEditor = true;
 	vimAlias = true;
+	colorschemes.nightfox = {
+		enable = true;
+		flavor = "carbon";
+	};
     };
   };
 }
