@@ -47,6 +47,7 @@
 			enable = true;
 			settings = {
 				auto_install = true;
+				parser_install_dir = "/home/${settings.username}/.config/nvim/treesitter";
 			};
 		};
 		lsp = {
