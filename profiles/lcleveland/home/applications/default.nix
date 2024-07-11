@@ -2,6 +2,7 @@
   imports = [
     ./gsnap.nix
     ./fira_code_nerdfont.nix
+    ./ripgrep.nix
     ./icedteam_web.nix
     ./gdu.nix
     ./l2tp.nix
