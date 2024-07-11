@@ -93,6 +93,9 @@
         nvim-tree = {
           enable = true;
         };
+        nvim-autopairs = {
+          enable = true;
+        };
       };
     };
   };
