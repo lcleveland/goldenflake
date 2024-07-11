@@ -11,6 +11,11 @@
 		enable = true;
 		flavor = "carbonfox";
 	};
+	plugins = {
+		codeium-nvim = {
+			enable = true;
+		};
+	};
     };
   };
 }
