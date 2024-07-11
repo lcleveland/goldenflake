@@ -40,7 +40,7 @@
 		cmp-nvim-lsp = {
 			enable = true;
 		};
-		conform-nvim = {
+		noice = {
 			enable = true;
 		};
 		treesitter = {
