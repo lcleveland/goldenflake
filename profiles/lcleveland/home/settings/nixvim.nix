@@ -79,6 +79,9 @@
         gitsigns = {
           enable = true;
         };
+        lualine = {
+          enable = true;
+        };
         none-ls = {
           enable = true;
           sources = {
