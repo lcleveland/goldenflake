@@ -96,6 +96,9 @@
         nvim-autopairs = {
           enable = true;
         };
+        which-key = {
+          enable = true;
+        };
       };
     };
   };
