@@ -15,6 +15,9 @@
 		codeium-nvim = {
 			enable = true;
 		};
+		cmp = {
+			enable = true;
+		};
 	};
     };
   };
