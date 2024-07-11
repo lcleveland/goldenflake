@@ -34,8 +34,20 @@
 				];
 			};
 		};
+		cmp-nvim-lsp = {
+			enable = true;
+		};
 		treesitter = {
 			enable = true;
+		};
+		lsp = {
+			enable = true;
+			servers = {
+				nil-ls = {
+					enable = true;
+					autostart = true;
+				};
+			};
 		};
 	};
     };
