@@ -18,7 +18,7 @@
 		cmp = {
 			enable = true;
 			settings = {
-				mappings = {
+				mapping = {
 				  "<C-Space>" = "cmp.mapping.complete()";
 				  "<C-d>" = "cmp.mapping.scroll_docs(-4)";
 				  "<C-e>" = "cmp.mapping.close()";
