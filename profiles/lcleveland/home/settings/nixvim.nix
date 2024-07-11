@@ -34,6 +34,9 @@
 				];
 			};
 		};
+		treesitter = {
+			enable = true;
+		};
 	};
     };
   };
