@@ -9,7 +9,7 @@
 	vimAlias = true;
 	colorschemes.nightfox = {
 		enable = true;
-		flavor = "carbon";
+		flavor = "carbonfox";
 	};
     };
   };
