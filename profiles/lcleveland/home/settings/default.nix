@@ -5,5 +5,6 @@
     ./dconf.nix
     ./nixvim.nix
     ./strongswan.nix
+    ./tmux.nix
   ];
 }
