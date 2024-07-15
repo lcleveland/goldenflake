@@ -34,25 +34,10 @@
               {
                 name = "nvim_lsp";
               }
-              {
-                name = "buffer";
-              }
-              {
-                name = "cmdline";
-              }
-              {
-                name = "path";
-              }
             ];
           };
         };
         cmp-nvim-lsp = {
-          enable = true;
-        };
-        cmp-cmdline = {
-          enable = true;
-        };
-        cmp-buffer = {
           enable = true;
         };
         noice = {
@@ -65,7 +50,6 @@
           cmdline.view = "cmdline";
           popupmenu = {
             enabled = true;
-            backend = "cmp";
           };
         };
         notify = {
