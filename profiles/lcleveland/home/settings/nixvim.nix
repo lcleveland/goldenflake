@@ -40,6 +40,12 @@
         cmp-nvim-lsp = {
           enable = true;
         };
+        cmp-cmdline = {
+          enable = true;
+        };
+        cmp-buffer = {
+          enable = true;
+        };
         noice = {
           enable = true;
         };
