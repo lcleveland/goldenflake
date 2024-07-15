@@ -61,6 +61,9 @@
             command_palette = true;
           };
         };
+        notify = {
+          enable = true;
+        };
         treesitter = {
           enable = true;
           settings = {
