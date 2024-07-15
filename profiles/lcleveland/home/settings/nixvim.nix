@@ -18,10 +18,7 @@
         cmp = {
           enable = true;
           cmdline = {
-            sources =
-              [
-                { name = "cmdline"; }
-              ];
+            sources = { sources = [{ name = "cmdline"; }]; };
           };
           settings = {
             mapping = {
