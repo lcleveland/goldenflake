@@ -17,9 +17,6 @@
         };
         cmp = {
           enable = true;
-          cmdline = {
-            sources = { sources = [{ name = "cmdline"; }]; };
-          };
           settings = {
             mapping = {
               "<C-Space>" = "cmp.mapping.complete()";
@@ -39,6 +36,12 @@
               }
               {
                 name = "buffer";
+              }
+              {
+                name = "cmdline";
+              }
+              {
+                name = "path";
               }
             ];
           };
