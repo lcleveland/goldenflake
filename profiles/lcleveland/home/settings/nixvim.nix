@@ -59,6 +59,9 @@
           enable = true;
           cmdline = {
             view = "cmdline";
+            format = {
+              conceal = false;
+            };
           };
         };
         notify = {
