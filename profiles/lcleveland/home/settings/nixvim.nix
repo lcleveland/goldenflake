@@ -56,7 +56,7 @@
           enable = true;
         };
         noice = {
-          enable = true;
+          enable = false;
           lsp.override = {
             "cmp.entry.get_documentation" = true;
             "vim.lsp.util.convert_input_to_markdown_lines" = true;
