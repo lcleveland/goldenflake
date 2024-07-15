@@ -64,8 +64,7 @@
           };
           cmdline.view = "cmdline";
           popupmenu = {
-            enabled = true;
-            backend = "cmp";
+            enabled = false;
           };
         };
         notify = {
