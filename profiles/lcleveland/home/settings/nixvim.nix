@@ -62,6 +62,10 @@
             "vim.lsp.util.convert_input_to_markdown_lines" = true;
             "vim.lsp.util.stylize_markdown" = true;
           };
+          popupmenu = {
+            enabled = true;
+            backend = "cmp";
+          };
         };
         notify = {
           enable = true;
