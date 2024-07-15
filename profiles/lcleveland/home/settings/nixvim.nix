@@ -57,8 +57,8 @@
         };
         noice = {
           enable = true;
-          presets = {
-            command_palette = true;
+          cmdline = {
+            view = "cmdline";
           };
         };
         notify = {
