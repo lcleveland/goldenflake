@@ -62,6 +62,7 @@
             "vim.lsp.util.convert_input_to_markdown_lines" = true;
             "vim.lsp.util.stylize_markdown" = true;
           };
+          cmdline.view = "cmdline";
           popupmenu = {
             enabled = true;
             backend = "cmp";
