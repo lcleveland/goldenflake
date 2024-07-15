@@ -65,7 +65,7 @@
           cmdline.view = "cmdline";
           popupmenu = {
             enabled = true;
-            backend = "nui";
+            backend = "cmp";
           };
         };
         notify = {
