@@ -62,12 +62,6 @@
             "vim.lsp.util.convert_input_to_markdown_lines" = true;
             "vim.lsp.util.stylize_markdown" = true;
           };
-          cmdline = {
-            view = "cmdline";
-            format = {
-              conceal = false;
-            };
-          };
         };
         notify = {
           enable = true;
