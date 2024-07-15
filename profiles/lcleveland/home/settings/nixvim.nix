@@ -57,6 +57,9 @@
         };
         noice = {
           enable = true;
+          presets = {
+            command_palette = true;
+          };
         };
         treesitter = {
           enable = true;
