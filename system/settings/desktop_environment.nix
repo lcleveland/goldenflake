@@ -8,10 +8,6 @@
       desktopManager = {
         gnome = {
           enable = true;
-          extraGSettingsOverrides = ''
-            	  [org.gnome.mutter.wayland]
-            	  xwayland-disable-extension  '["Xtest"]'
-            	'';
         };
         xterm.enable = false;
       };
