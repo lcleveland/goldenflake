@@ -21,6 +21,8 @@
     ./git.nix
     ./podman.nix
     ./libvirtd.nix
+    ./garbage_collection.nix
+    ./store.nix
     ./${settings.cpu_vendor}.nix
   ];
 }
