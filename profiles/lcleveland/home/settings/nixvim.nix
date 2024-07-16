@@ -98,7 +98,7 @@
           enable = true;
           sources = {
             formatting = {
-              nixpkgs_fmt.enable = false;
+              nixpkgs_fmt.enable = true;
             };
           };
         };

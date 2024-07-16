@@ -6,7 +6,9 @@
         xterm
       ];
       desktopManager = {
-        gnome.enable = true;
+        gnome = {
+		enable = true;
+	};
         xterm.enable = false;
       };
     };
