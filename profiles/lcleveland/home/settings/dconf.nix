@@ -8,7 +8,6 @@
         ];
       };
       "org/gnome/desktop/interface".color-scheme = "prefer-dark";
-      "org/gnome/mutter/wayland".xwayland-disable-extension = "XTest";
     };
   };
 }
