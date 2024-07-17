@@ -6,5 +6,6 @@
     ./nixvim.nix
     ./strongswan.nix
     ./tmux.nix
+    ./zsh.nix
   ];
 }
