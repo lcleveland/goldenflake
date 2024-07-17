@@ -6,7 +6,11 @@
     autosuggestion.enable = true;
     syntaxHighlighting.enable = true;
     enableVteIntegration = true;
-    oh-my-zsh.enable = true;
+    oh-my-zsh =
+      {
+        enable = true;
+        theme = "kennethreitz";
+      };
     history = {
       size = 10000;
       path = "/home/${settings.username}/.config/zsh/history";
