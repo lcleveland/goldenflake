@@ -115,6 +115,9 @@
         };
         barbar = {
           enable = true;
+          settings = {
+            insert_at_start = true;
+          };
         };
       };
     };
