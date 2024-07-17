@@ -20,7 +20,7 @@
         nvidia = false;
         nvidia_driver = "beta";
         default_editor = "neovim";
-        default_terminal = "ptyxis";
+        default_terminal = "kitty";
         profile = "home";
         wayland = true;
         qt_style = "adwaita-dark";
