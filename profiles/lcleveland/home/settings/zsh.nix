@@ -9,7 +9,7 @@
     oh-my-zsh =
       {
         enable = true;
-        theme = "kennethreitz";
+        theme = "nicoulaj";
       };
     history = {
       size = 10000;
