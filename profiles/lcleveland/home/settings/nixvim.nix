@@ -113,6 +113,9 @@
           enable = true;
           showKeys = true;
         };
+        barbar = {
+          enable = true;
+        };
       };
     };
   };
