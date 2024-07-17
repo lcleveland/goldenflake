@@ -1,5 +1,5 @@
-{ settings, ... }: {
-
+{ settings, pkgs, ... }: {
+  users.users.${settings.username}.shell = pkgs.zsh;
   home-manager.users.${settings.username}.programs.zsh = {
     enable = true;
     enableCompletion = true;
