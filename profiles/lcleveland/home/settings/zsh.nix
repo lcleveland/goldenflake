@@ -1,6 +1,6 @@
-{ settings, pkgs,... }: {
-users.users.myuser.shell = pkgs.${settings.default_shell};
-home-manager.users.${settings.username}.programs.zsh = {
+{ settings, pkgs, ... }: {
+  users.users.${settings.username}.shell = pkgs.${settings.default_shell};
+  home-manager.users.${settings.username}.programs.zsh = {
     enable = true;
     enableCompletion = true;
     autosuggestion.enable = true;
