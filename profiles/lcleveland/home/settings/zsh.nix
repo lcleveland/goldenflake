@@ -10,5 +10,8 @@
       size = 10000;
       path = "/home/${settings.username}/.config/zsh/history";
     };
+    initExtra = ''
+      if [ "$TMUX" = "" ]; then tmux; fi
+    '';
   };
 }
