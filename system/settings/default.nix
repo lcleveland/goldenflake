@@ -24,5 +24,6 @@
     ./garbage_collection.nix
     ./store.nix
     ./${settings.cpu_vendor}.nix
+    ./shells/${settings.default_shell}.nix
   ];
 }
