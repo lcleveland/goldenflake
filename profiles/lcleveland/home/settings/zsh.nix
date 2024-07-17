@@ -6,6 +6,9 @@
     autosuggestion.enable = true;
     syntaxHighlighting.enable = true;
     enableVteIntegration = true;
+    interactiveShellInit = ''
+      exec tmux
+    '';
     history = {
       size = 10000;
       path = "/home/${settings.username}/.config/zsh/history";
