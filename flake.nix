@@ -21,6 +21,7 @@
         nvidia_driver = "beta";
         default_editor = "neovim";
         default_terminal = "kitty";
+	default_shell = "zsh";
         profile = "home";
         wayland = true;
         qt_style = "adwaita-dark";

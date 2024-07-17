@@ -14,5 +14,6 @@
     ./gcc.nix
     ./clipboard_indicator.nix
     ./wl_clipboard.nix
+    ./shells/${settings.default_shell}.nix
   ];
 }
