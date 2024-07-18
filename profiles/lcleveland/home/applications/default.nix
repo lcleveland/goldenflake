@@ -10,5 +10,6 @@
     ./lazygit.nix
     ./rustup.nix
     ./unzip.nix
+    ./openssl.nix
   ];
 }
