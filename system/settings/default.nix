@@ -23,6 +23,7 @@
     ./libvirtd.nix
     ./garbage_collection.nix
     ./store.nix
+    ./usb_redirect.nix
     ./${settings.cpu_vendor}.nix
     ./shells/${settings.default_shell}.nix
   ];
