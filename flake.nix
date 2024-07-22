@@ -25,7 +25,7 @@
         profile = "home";
         wayland = true;
         qt_style = "adwaita-dark";
-        gtk_style = "adwaita-dark";
+        gtk_theme = "adwaita-dark";
         enable_fingerprint = true;
       };
     in

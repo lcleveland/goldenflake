@@ -24,7 +24,6 @@
     ./garbage_collection.nix
     ./store.nix
     ./qt.nix
-    ./gtk.nix
     ./usb_redirect.nix
     ./${settings.cpu_vendor}.nix
     ./shells/${settings.default_shell}.nix
