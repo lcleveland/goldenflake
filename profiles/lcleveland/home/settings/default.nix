@@ -8,5 +8,6 @@
     ./tmux.nix
     ./zsh.nix
     ./kitty.nix
+    ./gtk.nix
   ];
 }
