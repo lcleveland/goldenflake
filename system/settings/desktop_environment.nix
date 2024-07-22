@@ -1,5 +1,4 @@
-{ pkgs, settings, ... }: {
-  qt.style = settings.qt_style;
+{ pkgs, ... }: {
   services = {
     xserver = {
       excludePackages = with pkgs; [

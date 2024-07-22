@@ -1,3 +1,3 @@
-{ ... }: {
-  qt.style = "adwaita-dark";
+{ settings, ... }: {
+  qt.style = settings.qt_style;
 }
