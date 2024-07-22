@@ -1,3 +1,3 @@
 { settings, ... }: {
-  gtk.theme.name = settings.gtk_theme;
+  gtk.theme.name = settings.gtk_style;
 }
