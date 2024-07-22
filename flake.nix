@@ -6,10 +6,10 @@
       settings = {
         system = "x86_64-linux";
         cpu_vendor = "amd";
-        hostname = "DREAM";
+        hostname = "LS-04380";
         timezone = "America/Chicago";
         locale = "en_US.UTF-8";
-        keyboard = { layout = "us"; variant = ""; };
+        keyboard = { layout = "us"; variant = "colemak_dh"; };
         printing_support = true;
         username = "lcleveland";
         name = "Lyle Cleveland";
@@ -17,7 +17,7 @@
         user_groups = [ "wheel" "networkmanager" "libvirtd" "kvm" ];
         default_browser = "";
         state_version = "24.05";
-        nvidia = true;
+        nvidia = false;
         nvidia_driver = "beta";
         default_editor = "neovim";
         default_terminal = "kitty";
@@ -25,7 +25,7 @@
         profile = "home";
         wayland = true;
         qt_style = "adwaita-dark";
-        enable_fingerprint = false;
+        enable_fingerprint = true;
       };
     in
     {
