@@ -4,7 +4,7 @@
     ./orca_slicer.nix
     ./fira_code_nerdfont.nix
     ./ripgrep.nix
-    ./icedteam_web.nix
+    ./icedtea_web.nix
     ./gdu.nix
     ./l2tp.nix
     ./lazygit.nix
