@@ -3,7 +3,7 @@
     enable = true;
     theme = {
       name = settings.gtk_theme;
-      package = pkgs.gnome.gnome-themes-extra;
+      package = pkgs.gnome-themes-extra;
     };
   };
 }
