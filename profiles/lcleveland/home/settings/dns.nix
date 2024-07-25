@@ -1,0 +1,5 @@
+{ ... }: {
+  networking.search = [
+    "lselectric.local"
+  ];
+}

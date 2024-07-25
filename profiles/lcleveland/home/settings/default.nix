@@ -9,5 +9,6 @@
     ./zsh.nix
     ./kitty.nix
     ./gtk.nix
+    ./dns.nix
   ];
 }
