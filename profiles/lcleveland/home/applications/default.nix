@@ -6,6 +6,7 @@
     ./fira_code_nerdfont.nix
     ./ripgrep.nix
     ./icedtea_web.nix
+    ./flipper.nix
     ./gdu.nix
     ./l2tp.nix
     ./lazygit.nix
