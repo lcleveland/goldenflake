@@ -5,6 +5,7 @@
     ./orca_slicer.nix
     ./fira_code_nerdfont.nix
     ./ripgrep.nix
+    ./ghidra.nix
     ./icedtea_web.nix
     ./flipper.nix
     ./gdu.nix
