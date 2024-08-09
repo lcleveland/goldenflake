@@ -9,6 +9,7 @@
     ./nmap.nix
     ./cutter.nix
     ./ghidra.nix
+    ./bruno.nix
     ./icedtea_web.nix
     ./flipper.nix
     ./gdu.nix
