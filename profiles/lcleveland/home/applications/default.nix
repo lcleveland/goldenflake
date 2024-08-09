@@ -1,6 +1,7 @@
 { ... }: {
   imports = [
     ./gsnap.nix
+    ./file.nix
     ./twingate.nix
     ./orca_slicer.nix
     ./fira_code_nerdfont.nix
