@@ -5,7 +5,6 @@
     ./twingate.nix
     ./orca_slicer.nix
     ./fira_code_nerdfont.nix
-    ./kismet.nix
     ./ripgrep.nix
     ./nmap.nix
     ./cutter.nix
