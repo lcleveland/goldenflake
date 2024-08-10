@@ -10,6 +10,7 @@
     ./cutter.nix
     ./ghidra.nix
     ./bruno.nix
+    ./caido.nix
     ./icedtea_web.nix
     ./flipper.nix
     ./gdu.nix
