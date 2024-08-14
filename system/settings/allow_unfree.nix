@@ -1,14 +1,17 @@
 { lib, config, ... }:
 with lib;
 let
-  cfg = config.system.applications.settings.allow_unfree;
+  cfg = config.system.settings.allow_unfree;
 in
 {
-  options.system.applications.settings.allow_unfree = {
+  options.system.settings.allow_unfree = {
     enable = mkOption
       {
         type = types.bool;
         default = true;
+        description = mdDoc ''
+          Enable unfree software
+        '';
       };
   };
 
