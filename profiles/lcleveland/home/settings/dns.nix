@@ -2,5 +2,5 @@
   networking.search = [
     "lselectric.local"
   ];
-  networking.dnsExtensionMechanism = false;
+  networking.resolvconf.dnsExtensionMechanism = false;
 }

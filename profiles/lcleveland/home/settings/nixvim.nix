@@ -111,7 +111,9 @@
         };
         which-key = {
           enable = true;
-          showKeys = true;
+          settings = {
+            show_keys = true;
+          };
         };
         barbar = {
           enable = true;
