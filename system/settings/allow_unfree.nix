@@ -4,7 +4,7 @@ let
   cfg = config.system.applications.settings.allow_unfree;
 in
 {
-  options.system.settings.applications.settings.allow_unfree = {
+  options.system.applications.settings.allow_unfree = {
     enable = mkOption
       {
         type = types.bool;
@@ -13,6 +13,6 @@ in
   };
 
   config = mkIf cfg.enable {
-    allowUnfree = cfg.enable;
+    nixpkgs.config.allowUnfree = cfg.enable;
   };
 }
