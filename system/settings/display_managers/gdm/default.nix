@@ -1,4 +1,4 @@
-{ settings, lib, config, ... }:
+{ lib, config, ... }:
 let
   cfg = config.system.settings.display_managers.gdm;
 in
