@@ -10,7 +10,7 @@
   home-manager.useGlobalPkgs = true;
   home-manager.users.${settings.username} = {
     home.username = settings.username;
-    home.stateVersion = settings.state_version;
+    home.stateVersion = "24.05";
     dconf = {
       settings = {
         "org/gnome/shell" = {

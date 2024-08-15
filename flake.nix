@@ -10,7 +10,6 @@
         email = "lyle.cleveland@proton.me";
         user_groups = [ "wheel" "networkmanager" "libvirtd" "kvm" "kismet" ];
         default_browser = "";
-        state_version = "24.05";
         nvidia = false;
         nvidia_driver = "beta";
         default_editor = "neovim";
