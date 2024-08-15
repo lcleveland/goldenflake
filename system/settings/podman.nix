@@ -6,7 +6,7 @@ in
   options.system.settings.podman = {
     enable = lib.mkOption {
       type = lib.types.bool;
-      default = false;
+      default = true;
       description = lib.mdDoc "Enable podman";
     };
   };
