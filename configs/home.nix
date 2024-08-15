@@ -5,7 +5,7 @@
       enable = true;
       display_manager = "gdm";
     };
-    graphics.enable = true;
+    graphic.enable = true;
     cpu.vendor = "amd";
     networking.hostname = "DREAM";
     fingerprint.enable = false;

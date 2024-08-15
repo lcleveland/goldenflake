@@ -1,12 +1,12 @@
 { lib, config, ... }:
 let
-  cfg = config.system.settings.graphics;
+  cfg = config.system.settings.graphic;
 in
 {
   imports = [
     ./graphics
   ];
-  options.system.settings.graphics = {
+  options.system.settings.graphic = {
     enable = lib.mkOption {
       type = lib.types.bool;
       default = true;
