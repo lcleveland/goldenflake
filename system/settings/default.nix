@@ -1,4 +1,4 @@
-{ settings, ... }: {
+{ ... }: {
   imports = [
     /etc/nixos/hardware-configuration.nix
     ./fingerprint.nix
