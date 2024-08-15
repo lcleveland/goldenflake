@@ -3,6 +3,9 @@ let
   cfg = config.system.settings.graphics;
 in
 {
+  imports = [
+    ./graphics
+  ];
   options.system.settings.graphics = {
     enable = lib.mkOption {
       type = lib.types.bool;

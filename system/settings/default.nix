@@ -18,7 +18,7 @@
     ./sound.nix
     ./time.nix
     ./git.nix
-    ./graphics.nix
+    ./graphic.nix
     ./podman.nix
     ./libvirtd.nix
     ./garbage_collection.nix
