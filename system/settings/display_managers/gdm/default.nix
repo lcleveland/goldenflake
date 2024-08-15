@@ -9,13 +9,18 @@ in
       default = false;
       description = lib.mdDoc "Enable GDM";
     };
+    wayland = lib.mkOption {
+      type = lib.types.bool;
+      default = true;
+      description = lib.mdDoc "Use Wayland";
+    };
   };
   config = lib.mkIf cfg.enable {
     services.xserver = {
       enable = true;
       displayManager.gdm = {
         enable = true;
-        wayland = settings.wayland;
+        wayland = cfg.wayland;
       };
     };
   };
