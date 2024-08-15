@@ -1,10 +1,10 @@
 { pkgs, lib, config, ... }:
 with lib;
 let
-  cfg = config.system.settings.desktop_environment.gnome;
+  cfg = config.system.settings.desktop_environments.gnome;
 in
 {
-  options.system.settings.desktop_environment.gnome = {
+  options.system.settings.desktop_environments.gnome = {
     enable = mkOption {
       type = types.bool;
       default = false;
