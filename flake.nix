@@ -5,7 +5,6 @@
     let
       settings = {
         system = "x86_64-linux";
-        locale = "en_US.UTF-8";
         keyboard = { layout = "us"; variant = "colemak_dh"; };
         printing_support = true;
         username = "lcleveland";
