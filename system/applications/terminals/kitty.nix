@@ -1,9 +1,9 @@
 { pkgs, lib, config, ... }:
 let
-  cfg = config.applications.terminal.kitty;
+  cfg = config.system.applications.terminal.kitty;
 in
 {
-  options.applications.terminal.kitty = {
+  options.system.applications.terminal.kitty = {
     enable = lib.mkOption {
       type = lib.types.bool;
       description = lib.mdDoc "Enable the kitty terminal";

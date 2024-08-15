@@ -1,9 +1,9 @@
 { pkgs, lib, config, ... }:
 let
-  cfg = config.applications.shells.zsh;
+  cfg = config.system.applications.shells.zsh;
 in
 {
-  options.applications.shells.zsh = {
+  options.system.applications.shells.zsh = {
     enable = lib.mkOption {
       type = lib.types.bool;
       description = lib.mdDoc "Enable the zsh shell";

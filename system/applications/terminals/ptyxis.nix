@@ -1,9 +1,9 @@
 { pkgs, lib, config, ... }:
 let
-  cfg = config.applications.terminal.ptyxis;
+  cfg = config.system.applications.terminal.ptyxis;
 in
 {
-  options.applications.terminal.ptyxis = {
+  options.system.applications.terminal.ptyxis = {
     enable = lib.mkOption {
       type = lib.types.bool;
       description = lib.mdDoc "Enable the ptyxis terminal";
