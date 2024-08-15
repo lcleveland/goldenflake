@@ -5,7 +5,7 @@ in
 {
   options.system.settings.kernel = {
     kernel_pkg = lib.mkOption {
-      type = lib.types.package;
+      type = lib.types.attrs;
       default = pkgs.linuxPackages_latest;
       description = "The kernel package to use";
     };
