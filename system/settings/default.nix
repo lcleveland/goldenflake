@@ -25,6 +25,6 @@
     ./store.nix
     ./qt.nix
     ./cpu.nix
-    ./shells/${settings.default_shell}.nix
+    ./terminal.nix
   ];
 }
