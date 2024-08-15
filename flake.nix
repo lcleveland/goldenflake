@@ -5,7 +5,6 @@
     let
       settings = {
         system = "x86_64-linux";
-        cpu_vendor = "amd";
         hostname = "LS-04380";
         timezone = "America/Chicago";
         locale = "en_US.UTF-8";
