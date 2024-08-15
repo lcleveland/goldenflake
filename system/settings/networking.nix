@@ -12,7 +12,7 @@ in
       '';
     };
   };
-  config = lib.mkIf cfg.enable {
+  config = {
     networking = {
       hostName = cfg.hostname;
       networkmanager.enable = true;
