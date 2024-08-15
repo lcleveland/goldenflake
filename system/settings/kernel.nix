@@ -7,7 +7,7 @@ in
     kernel_pkg = lib.mkOption {
       type = lib.types.attrs;
       default = pkgs.linuxPackages_latest;
-      description = "The kernel package to use";
+      description = lib.mdDoc "The kernel package to use";
     };
   };
   config = {
