@@ -1,7 +1,6 @@
 { settings, ... }: {
   imports = [
     ./editors/${settings.default_editor}.nix
-    ./terminals/${settings.default_terminal}.nix
     ./git_credential_oauth.nix
     ./podman_compose.nix
     ./distrobox.nix
@@ -15,6 +14,5 @@
     ./clipboard_indicator.nix
     ./wl_clipboard.nix
     ./appimage_run.nix
-    ./shells/${settings.default_shell}.nix
   ];
 }
