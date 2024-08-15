@@ -4,6 +4,9 @@ let
   cfg = config.system.settings.desktop_environment;
 in
 {
+  imports = [
+    ./desktop_environments/gnome
+  ];
   options.system.settings.desktop_environment = {
     enable = mkOption {
       type = types.bool;
@@ -21,6 +24,6 @@ in
     };
   };
   config = mkIf cfg.enable {
-    config.system.settings.desktop_environment.${cfg.environment}.enable = true;
+    config.system.settings.desktop_environments.${cfg.environment}.enable = true;
   };
 }
