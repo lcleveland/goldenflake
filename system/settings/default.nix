@@ -17,8 +17,8 @@
     ./printing.nix
     ./sound.nix
     ./time.nix
-    ./nvidia.nix
     ./git.nix
+    ./graphics.nix
     ./podman.nix
     ./libvirtd.nix
     ./garbage_collection.nix
