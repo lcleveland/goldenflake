@@ -35,6 +35,7 @@
         modules = [
           ./system
           ./profiles/${settings.username}
+          ./config.nix
           home-manager.nixosModules.home-manager
         ];
         specialArgs = {
