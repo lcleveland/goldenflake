@@ -1,19 +1,18 @@
 { pkgs, lib, config, ... }:
-with lib;
 let
   cfg = config.system.settings.desktop_environments.gnome;
 in
 {
   options.system.settings.desktop_environments.gnome = {
-    enable = mkOption {
-      type = types.bool;
+    enable = lib.mkOption {
+      type = lib.types.bool;
       default = false;
       description = lib.mdDoc ''
         Enable desktop environment
       '';
     };
   };
-  config = mkIf cfg.enable {
+  config = lib.mkIf cfg.enable {
     services = {
       xserver = {
         excludePackages = with pkgs; [
