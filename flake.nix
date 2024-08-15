@@ -11,6 +11,8 @@
         user_groups = [ "wheel" "networkmanager" "libvirtd" "kvm" "kismet" ];
         default_browser = "";
         default_editor = "neovim";
+        default_terminal = "kitty";
+        default_shell = "zsh";
         profile = "home";
         qt_style = "adwaita-dark";
         gtk_theme = "Adwaita-dark";
