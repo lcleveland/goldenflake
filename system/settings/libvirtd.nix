@@ -11,20 +11,23 @@ in
     };
   };
   config = lib.mkIf cfg.enable {
-    virtualisation.libvirtd = {
-      enable = cfg.enable;
-      qemu = {
-        package = pkgs.qemu_kvm;
-        runAsRoot = true;
-        swtpm.enable = true;
-        ovmf = {
-          enable = true;
-          packages = [
-            (pkgs.OVMF.override {
-              secureBoot = true;
-              tpmSupport = true;
-            }).fd
-          ];
+    virtualisation = {
+      spiceUSBRedirection.enable = true;
+      libvirtd = {
+        enable = cfg.enable;
+        qemu = {
+          package = pkgs.qemu_kvm;
+          runAsRoot = true;
+          swtpm.enable = true;
+          ovmf = {
+            enable = true;
+            packages = [
+              (pkgs.OVMF.override {
+                secureBoot = true;
+                tpmSupport = true;
+              }).fd
+            ];
+          };
         };
       };
     };
