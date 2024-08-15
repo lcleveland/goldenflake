@@ -5,7 +5,6 @@
     let
       settings = {
         system = "x86_64-linux";
-        printing_support = true;
         username = "lcleveland";
         name = "Lyle Cleveland";
         email = "lyle.cleveland@proton.me";
