@@ -1,5 +1,4 @@
 { lib, config, ... }:
-with lib;
 let
   cfg = config.system.settings.desktop_environment;
 in
@@ -8,22 +7,22 @@ in
     ./desktop_environments/gnome
   ];
   options.system.settings.desktop_environment = {
-    enable = mkOption {
-      type = types.bool;
+    enable = lib.mkOption {
+      type = lib.types.bool;
       default = true;
       description = lib.mdDoc ''
         Enable desktop environment;
       '';
     };
     environment = {
-      type = types.str;
+      type = lib.types.str;
       default = "gnome";
       description = lib.mdDoc ''
         Environment to use;
       '';
     };
   };
-  config = mkIf cfg.enable {
+  config = lib.mkIf cfg.enable {
     config.system.settings.desktop_environments.${cfg.environment}.enable = true;
   };
 }
