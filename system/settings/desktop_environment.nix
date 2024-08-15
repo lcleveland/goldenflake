@@ -4,7 +4,7 @@ let
 in
 {
   imports = [
-    ./desktop_environments/gnome
+    ./desktop_environments
   ];
   options.system.settings.desktop_environment = {
     enable = lib.mkOption {
@@ -14,7 +14,7 @@ in
         Enable desktop environment;
       '';
     };
-    environment = {
+    environment = lib.mkOption {
       type = lib.types.str;
       default = "gnome";
       description = lib.mdDoc ''
@@ -23,6 +23,6 @@ in
     };
   };
   config = lib.mkIf cfg.enable {
-    config.system.settings.desktop_environments.${cfg.environment}.enable = true;
+    system.settings.desktop_environments.${cfg.environment}.enable = true;
   };
 }
