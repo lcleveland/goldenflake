@@ -19,7 +19,6 @@
         wayland = true;
         qt_style = "adwaita-dark";
         gtk_theme = "Adwaita-dark";
-        enable_fingerprint = true;
       };
     in
     {
