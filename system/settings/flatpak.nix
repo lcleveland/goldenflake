@@ -6,7 +6,7 @@ in
   options.system.settings.flatpak = {
     enable = lib.mkOption {
       type = lib.types.bool;
-      default = false;
+      default = true;
       description = lib.mdDoc "Enable Flatpak";
     };
     repo_hash = lib.mkOption {
