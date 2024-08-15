@@ -10,8 +10,15 @@ in
     enable = lib.mkOption {
       type = lib.types.bool;
       default = false;
-      description = lib.jdDoc ''
+      description = lib.mdDoc ''
         Enable display manager'';
+    };
+    display_manager = lib.mkOption {
+      type = lib.types.str;
+      default = "gdm";
+      description = lib.mdDoc ''
+                Display manager to use
+        	'';
     };
   };
   config = lib.mkIf cfg.enable {
