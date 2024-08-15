@@ -5,5 +5,9 @@
     networking.hostname = "DREAM";
     fingerprint.enable = true;
     time.timezone = "America/Chicago";
+    keymap = {
+      layout = "us";
+      variant = "";
+    };
   };
 }
