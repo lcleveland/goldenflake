@@ -27,7 +27,7 @@ in
   config = lib.mkIf cfg.enable {
     system.applications = {
       shells.${cfg.shell}.enable = true;
-      terminals.${cfg.terminal}.enable = true;
+      terminals.${cfg.emulator}.enable = true;
     };
   };
 }
