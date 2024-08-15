@@ -1,21 +1,20 @@
 { lib, config, ... }:
-with lib;
 let
   cfg = config.system.settings.allow_unfree;
 in
 {
   options.system.settings.allow_unfree = {
-    enable = mkOption
+    enable = lib.mkOption
       {
-        type = types.bool;
+        type = lib.types.bool;
         default = true;
-        description = mdDoc ''
+        description = lib.mdDoc ''
           Enable unfree software
         '';
       };
   };
 
-  config = mkIf cfg.enable {
+  config = lib.mkIf cfg.enable {
     nixpkgs.config.allowUnfree = cfg.enable;
   };
 }

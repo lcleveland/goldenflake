@@ -1,26 +1,25 @@
 { lib, config, ... }:
-with lib;
 let
   cfg = config.system.settings.appimage;
 in
 {
   options.system.settings.appimage = {
-    enable = mkOption {
-      type = types.bool;
+    enable = lib.mkOption {
+      type = lib.types.bool;
       default = true;
-      description = mdDoc ''
+      description = lib.mdDoc ''
         Enable AppImage support
       '';
     };
-    binfmt = mkOption {
-      type = types.bool;
+    binfmt = lib.mkOption {
+      type = lib.types.bool;
       default = true;
-      description = mdDoc ''
+      description = lib.mdDoc ''
         Enable AppImage binfmt
       '';
     };
   };
-  config = mkIf cfg.enable {
+  config = lib.mkIf cfg.enable {
     programs.appimage = {
       enable = cfg.enable;
       binfmt = cfg.binfmt;

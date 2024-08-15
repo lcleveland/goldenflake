@@ -1,19 +1,18 @@
 { lib, config, ... }:
-with lib;
 let
   cfg = config.system.settings.amd;
 in
 {
   options.system.settings.amd = {
-    enable = mkOption {
-      type = types.bool;
+    enable = lib.mkOption {
+      type = lib.types.bool;
       default = true;
-      description = mdDoc ''
+      description = lib.mdDoc ''
         Enable AMD microcode update
       '';
     };
   };
-  config = mkIf cfg.enable {
+  config = lib.mkIf cfg.enable {
     hardware.cpu.amd.updateMicrocode = cfg.enable;
   };
 }

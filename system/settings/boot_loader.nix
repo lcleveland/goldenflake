@@ -1,33 +1,32 @@
 { lib, config, ... }:
-with lib;
 let
   cfg = config.system.settings.boot_loader;
 in
 {
   options.system.settings.boot_loader = {
-    enable = mkOption {
-      type = types.bool;
+    enable = lib.mkOption {
+      type = lib.types.bool;
       default = true;
-      description = mdDoc ''
+      description = lib.mdDoc ''
                 Enable boot loader
         	     '';
     };
-    systemd-boot.enable = mkOption {
-      type = types.bool;
+    systemd-boot.enable = lib.mkOption {
+      type = lib.types.bool;
       default = true;
-      description = mdDoc ''
+      description = lib.mdDoc ''
         Enable systemd-boot
       '';
     };
-    efi.canTouchEfiVariables = mkOption {
-      type = types.bool;
+    efi.canTouchEfiVariables = lib.mkOption {
+      type = lib.types.bool;
       default = true;
-      description = mdDoc ''
+      description = lib.mdDoc ''
         Enable EFI boot
       '';
     };
   };
-  config = mkIf cfg.enable {
+  config = lib.mkIf cfg.enable {
     boot.loader = {
       systemd-boot.enable = cfg.systemd-boot.enable;
       efi.canTouchEfiVariables = cfg.efi.canTouchEfiVariables;
