@@ -8,7 +8,6 @@
         default_browser = "";
         default_editor = "neovim";
         default_terminal = "kitty";
-        default_shell = "zsh";
       };
     in
     {

@@ -37,6 +37,26 @@ in
       default = "24.05";
       type = lib.types.str;
     };
+    default_shell = lib.mkOption {
+      description = lib.mdDoc "The default shell";
+      default = "zsh";
+      type = lib.types.str;
+    };
+    default_editor = lib.mkOption {
+      description = lib.mdDoc "The default editor";
+      default = "neovim";
+      type = lib.types.str;
+    };
+    default_terminal = lib.mkOption {
+      description = lib.mdDoc "The default terminal";
+      default = "kitty";
+      type = lib.types.str;
+    };
+    default_browser = lib.mkOption {
+      description = lib.mdDoc "The default browser";
+      default = "floorp";
+      type = lib.types.str;
+    };
   };
   config = lib.mkIf cfg.enable {
     users.users.lcleveland = {
