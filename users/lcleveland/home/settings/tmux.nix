@@ -1,6 +1,6 @@
-{ settings, pkgs, ... }: {
+{ config, pkgs, settings, ... }: {
 
-  home-manager.users.${settings.username}.programs.tmux = {
+  home-manager.users.${config.users.lcleveland.username}.programs.tmux = {
     enable = true;
     extraConfig = ''
       set-option -g default-shell ${pkgs.${settings.default_shell}}/bin/${settings.default_shell}

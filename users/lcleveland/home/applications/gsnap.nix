@@ -1,3 +1,3 @@
-{ settings, pkgs, ... }: {
-  home-manager.users.${settings.username}.home.packages = with pkgs.gnomeExtensions; [ gsnap ];
+{ config, pkgs, ... }: {
+  home-manager.users.${config.users.lcleveland.username}.home.packages = with pkgs.gnomeExtensions; [ gsnap ];
 }

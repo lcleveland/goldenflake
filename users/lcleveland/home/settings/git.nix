@@ -1,7 +1,7 @@
-{ settings, ... }: {
-  home-manager.users.${settings.username}.programs.git = {
+{ config, ... }: {
+  home-manager.users.${config.users.lcleveland.username}.programs.git = {
     enable = true;
-    userName = settings.name;
-    userEmail = settings.email;
+    userName = config.users.lcleveland.username;
+    userEmail = config.users.lcleveland.email;
   };
 }

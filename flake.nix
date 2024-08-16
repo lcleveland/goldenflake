@@ -5,10 +5,6 @@
     let
       settings = {
         system = "x86_64-linux";
-        username = "lcleveland";
-        name = "Lyle Cleveland";
-        email = "lyle.cleveland@proton.me";
-        user_groups = [ "wheel" "networkmanager" "libvirtd" "kvm" "kismet" ];
         default_browser = "";
         default_editor = "neovim";
         default_terminal = "kitty";

@@ -1,6 +1,6 @@
-{ settings, pkgs, ... }: {
-  users.users.${settings.username}.shell = pkgs.${settings.default_shell};
-  home-manager.users.${settings.username}.programs.zsh = {
+{ settings, pkgs, config, ... }: {
+  users.users.${config.users.lcleveland.username}.shell = pkgs.${settings.default_shell};
+  home-manager.users.${config.users.lcleveland.username}.programs.zsh = {
     enable = true;
     enableCompletion = true;
     autosuggestion.enable = true;
@@ -13,7 +13,7 @@
       };
     history = {
       size = 10000;
-      path = "/home/${settings.username}/.config/zsh/history";
+      path = "/home/${config.users.lcleveland.username}/.config/zsh/history";
     };
     initExtra = ''
       if [ "$TMUX" = "" ]; then tmux; fi

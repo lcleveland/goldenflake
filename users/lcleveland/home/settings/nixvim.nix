@@ -1,5 +1,5 @@
-{ inputs, settings, ... }: {
-  home-manager.users.${settings.username} = {
+{ inputs, config, ... }: {
+  home-manager.users.${config.users.lcleveland.username} = {
     imports = [
       inputs.nixvim.homeManagerModules.nixvim
     ];
@@ -60,7 +60,7 @@
           enable = true;
           settings = {
             auto_install = true;
-            parser_install_dir = "/home/${settings.username}/.config/nvim/treesitter";
+            parser_install_dir = "/home/${config.users.lcleveland.username}/.config/nvim/treesitter";
           };
         };
         lsp = {

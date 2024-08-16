@@ -1,5 +1,5 @@
-{ settings, pkgs, ... }: {
-  home-manager.users.${settings.username}.gtk = {
+{ settings, pkgs, config, ... }: {
+  home-manager.users.${config.users.lcleveland.username}.gtk = {
     enable = true;
     theme = {
       name = settings.gtk_theme;

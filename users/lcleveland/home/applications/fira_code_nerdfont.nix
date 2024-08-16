@@ -1,3 +1,3 @@
-{ pkgs, settings, ... }: {
-  home-manager.users.${settings.username}.home.packages = with pkgs; [ fira-code-nerdfont ];
+{ pkgs, config, ... }: {
+  home-manager.users.${config.users.lcleveland.username}.home.packages = with pkgs; [ fira-code-nerdfont ];
 }

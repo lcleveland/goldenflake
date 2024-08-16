@@ -1,3 +1,3 @@
-{ pkgs, settings, ... }: {
-  home-manager.users.${settings.username}.home.packages = with pkgs; [ gnome.networkmanager-l2tp ];
+{ pkgs, config, ... }: {
+  home-manager.users.${config.users.lcleveland.username}.home.packages = with pkgs; [ gnome.networkmanager-l2tp ];
 }

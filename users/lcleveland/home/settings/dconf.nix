@@ -1,5 +1,5 @@
-{ pkgs, settings, ... }: {
-  home-manager.users.${settings.username}.dconf = {
+{ pkgs, config, ... }: {
+  home-manager.users.${config.users.lcleveland.username}.dconf = {
     enable = true;
     settings = {
       "org/gnome/shell" = {
