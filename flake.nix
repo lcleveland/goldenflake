@@ -10,7 +10,6 @@
         default_terminal = "kitty";
         default_shell = "zsh";
         profile = "home";
-        qt_style = "adwaita-dark";
         gtk_theme = "Adwaita-dark";
       };
     in
