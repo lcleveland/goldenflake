@@ -17,7 +17,6 @@
           home-manager.nixosModules.home-manager
         ];
         specialArgs = {
-          inherit settings;
           inherit inputs;
         };
       };
