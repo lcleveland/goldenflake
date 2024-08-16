@@ -1,3 +1,3 @@
-{ pkgs, settings, ... }: {
-  home-manager.users.${settings.username}.home.packages = with pkgs; [ bottom ];
+{ pkgs, config, ... }: {
+  home-manager.users.${config.users.lcleveland.name}.home.packages = with pkgs; [ bottom ];
 }

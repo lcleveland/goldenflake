@@ -15,7 +15,7 @@
       variant = "";
     };
   };
-  users.settings = {
+  users = {
     lcleveland = {
       enable = true;
     };
