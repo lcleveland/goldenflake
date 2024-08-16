@@ -26,5 +26,6 @@
     ./qt.nix
     ./cpu.nix
     ./terminal.nix
+    ./editor.nix
   ];
 }
