@@ -15,4 +15,9 @@
       variant = "";
     };
   };
+  users.settings = {
+    lcleveland = {
+      enable = true;
+    };
+  };
 }

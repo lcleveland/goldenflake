@@ -23,7 +23,7 @@
         system = settings.system;
         modules = [
           ./system
-          ./profiles/${settings.username}
+          ./users
           ./configs/home.nix
           home-manager.nixosModules.home-manager
         ];
