@@ -2,14 +2,9 @@
   description = "A system configuration meant to bring Fedora Silverblue concepts to NixOS with imrovements";
 
   outputs = inputs@{ self, nixpkgs, home-manager, nixvim, ... }:
-    let
-      settings = {
-        system = "x86_64-linux";
-      };
-    in
     {
       nixosConfigurations.system = nixpkgs.lib.nixosSystem {
-        system = settings.system;
+        system = "x86_64-linux";
         modules = [
           ./system
           ./users
