@@ -3,7 +3,7 @@
 
   outputs = inputs@{ self, nixpkgs, home-manager, nixvim, ... }:
     {
-      nixosConfigurations.system = nixpkgs.lib.nixosSystem {
+      nixosConfigurations.home = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
         modules = [
           ./system
