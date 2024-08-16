@@ -5,7 +5,6 @@
     let
       settings = {
         system = "x86_64-linux";
-        default_editor = "neovim";
         default_terminal = "kitty";
       };
     in

@@ -1,6 +1,5 @@
 { settings, ... }: {
   imports = [
-    ./editors/${settings.default_editor}.nix
     ./git_credential_oauth.nix
     ./podman_compose.nix
     ./distrobox.nix
