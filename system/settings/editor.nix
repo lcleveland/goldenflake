@@ -3,6 +3,9 @@ let
   cfg = config.system.settings.editor;
 in
 {
+  imports = [
+    ../applications/editors
+  ];
   options.system.settings.editor = {
     default = lib.mkOption {
       type = lib.types.str;
@@ -11,6 +14,6 @@ in
     };
   };
   config = {
-    config.system.applications.editors.${cfg.default}.enable = true;
+    system.applications.editors.${cfg.default}.enable = true;
   };
 }
