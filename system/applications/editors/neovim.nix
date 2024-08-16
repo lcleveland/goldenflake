@@ -1,9 +1,9 @@
 { config, lib, pkgs, ... }:
 let
-  cfg = config.system.applications.neovim;
+  cfg = config.system.applications.editors.neovim;
 in
 {
-  options.system.applications.neovim = {
+  options.system.applications.editors.neovim = {
     enable = lib.mkOption {
       type = lib.types.bool;
       description = lib.mdDoc "Enable neovim";

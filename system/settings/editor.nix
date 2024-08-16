@@ -11,6 +11,6 @@ in
     };
   };
   config = {
-    system.applications.${cfg.default}.enable = true;
+    config.system.applications.editors.${cfg.default}.enable = true;
   };
 }
