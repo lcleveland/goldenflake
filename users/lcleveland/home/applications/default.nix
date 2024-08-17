@@ -22,5 +22,6 @@
     ./noto.nix
     ./jq.nix
     ./playerctl.nix
+    ./nerdfonts.nix
   ];
 }
