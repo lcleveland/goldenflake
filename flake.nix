@@ -15,6 +15,18 @@
           inherit inputs;
         };
       };
+      nixosConfigurations.laptop = nixpkgs.lib.nixosSystem {
+        system = "x86_64-linux";
+        modules = [
+          ./system
+          ./users
+          ./configs/laptop.nix
+          home-manager.nixosModules.home-manager
+        ];
+        specialArgs = {
+          inherit inputs;
+        };
+      };
     };
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
