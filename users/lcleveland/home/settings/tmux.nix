@@ -9,6 +9,7 @@
       '';
       plugins = with pkgs.tmuxPlugins; [
         tokyo-night-tmux
+        weather
       ];
     };
   };
