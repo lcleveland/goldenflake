@@ -21,5 +21,6 @@
     ./openssl.nix
     ./noto.nix
     ./jq.nix
+    ./playerctl.nix
   ];
 }
