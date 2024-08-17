@@ -10,5 +10,6 @@
     ./kitty.nix
     ./gtk.nix
     ./dns.nix
+    ./fonts.nix
   ];
 }

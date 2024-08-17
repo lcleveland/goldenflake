@@ -24,5 +24,6 @@
     ./playerctl.nix
     ./nerdfonts.nix
     ./discordo.nix
+    ./fira_code.nix
   ];
 }
