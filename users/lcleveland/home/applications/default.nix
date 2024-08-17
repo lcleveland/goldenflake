@@ -23,5 +23,6 @@
     ./jq.nix
     ./playerctl.nix
     ./nerdfonts.nix
+    ./discordo.nix
   ];
 }
