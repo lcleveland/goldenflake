@@ -19,5 +19,6 @@
     ./rustup.nix
     ./unzip.nix
     ./openssl.nix
+    ./noto.nix
   ];
 }
