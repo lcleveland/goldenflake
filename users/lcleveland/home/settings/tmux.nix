@@ -4,6 +4,7 @@
       enable = true;
       keyMode = "vi";
       mouse = true;
+      customPaneNavigationAndResize = true;
       extraConfig = ''
         set-option -g default-shell ${pkgs.${config.users.lcleveland.default_shell}}/bin/${config.users.lcleveland.default_shell}
       '';
