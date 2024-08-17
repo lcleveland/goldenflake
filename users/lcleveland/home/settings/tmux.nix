@@ -9,6 +9,7 @@
         set-option -g default-shell ${pkgs.${config.users.lcleveland.default_shell}}/bin/${config.users.lcleveland.default_shell}
       '';
       plugins = with pkgs.tmuxPlugins; [
+        yank
         {
           plugin = tokyo-night-tmux;
           extraConfig = ''
