@@ -64,7 +64,7 @@ in
       description = cfg.name;
       extraGroups = cfg.groups;
     };
-    users.lcleveland.home.applications.browsers.${cfg.browser}.enabled = true;
+    users.lcleveland.home.applications.browsers.${cfg.default_browser}.enable = true;
     home-manager.users.lcleveland = {
       home.username = cfg.username;
       home.stateVersion = cfg.state_version;
