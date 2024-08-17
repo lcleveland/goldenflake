@@ -1,0 +1,5 @@
+{ ... }: {
+  imports = [
+    ./opera.nix
+  ];
+}

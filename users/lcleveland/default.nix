@@ -54,7 +54,7 @@ in
     };
     default_browser = lib.mkOption {
       description = lib.mdDoc "The default browser";
-      default = "floorp";
+      default = "opera";
       type = lib.types.str;
     };
   };
@@ -64,6 +64,7 @@ in
       description = cfg.name;
       extraGroups = cfg.groups;
     };
+    users.lcleveland.home.applications.browsers.${cfg.browser}.enabled = true;
     home-manager.users.lcleveland = {
       home.username = cfg.username;
       home.stateVersion = cfg.state_version;
