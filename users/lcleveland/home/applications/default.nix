@@ -20,5 +20,6 @@
     ./unzip.nix
     ./openssl.nix
     ./noto.nix
+    ./jq.nix
   ];
 }
