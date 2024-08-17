@@ -1,5 +1,5 @@
 { pkgs, config, lib, ... }: {
   config = lib.mkIf config.users.lcleveland.enable {
-    home-manager.users.${config.users.lcleveland.username}.home.packages = with pkgs; [ noto ];
+    home-manager.users.${config.users.lcleveland.username}.home.packages = with pkgs; [ noto-fonts ];
   };
 }
