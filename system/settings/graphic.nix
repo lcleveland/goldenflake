@@ -9,7 +9,7 @@ in
   options.system.settings.graphic = {
     enable = lib.mkOption {
       type = lib.types.bool;
-      default = true;
+      default = false;
       description = lib.mdDoc "Enable the graphics subsystem.";
     };
     vendor = lib.mkOption {
