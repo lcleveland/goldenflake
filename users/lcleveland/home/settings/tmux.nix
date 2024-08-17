@@ -9,7 +9,10 @@
       '';
       plugins = with pkgs.tmuxPlugins; [
         tokyo-night-tmux
-        weather
+        {
+          plugin = weather;
+          extraConfig = "set-option -g status-right '#{weather}'";
+        }
       ];
     };
   };
