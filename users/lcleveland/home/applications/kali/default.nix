@@ -7,5 +7,6 @@
     ./gdu.nix
     ./ghidra.nix
     ./nmap.nix
+    ./ffuf.nix
   ];
 }
