@@ -13,6 +13,9 @@
         {
           enable = true;
           theme = "nicoulaj";
+          plugins = [
+            "fzf"
+          ];
         };
       history = {
         size = 10000;
