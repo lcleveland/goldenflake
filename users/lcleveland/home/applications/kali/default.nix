@@ -8,5 +8,6 @@
     ./ghidra.nix
     ./nmap.nix
     ./ffuf.nix
+    ./wireshark.nix
   ];
 }
