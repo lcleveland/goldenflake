@@ -11,5 +11,6 @@
     ./gtk.nix
     ./dns.nix
     ./fonts.nix
+    ./fzf.nix
   ];
 }
