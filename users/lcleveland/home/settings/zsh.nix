@@ -12,7 +12,7 @@
       oh-my-zsh =
         {
           enable = true;
-          theme = "nicoulaj";
+          theme = "heapbytes-zsh";
           plugins = [
             "fzf"
             "rust"
