@@ -1,12 +1,24 @@
 { lib, pkgs, config, ... }: {
   config = lib.mkIf config.users.lcleveland.enable {
+    environment.pathsToLink = [ "/share/zsh" ];
     users.users.${config.users.lcleveland.username}.shell = pkgs.${config.users.lcleveland.default_shell};
     home-manager.users.${config.users.lcleveland.username}.programs.zsh = {
       enable = true;
       enableCompletion = true;
-      autosuggestion.enable = true;
       syntaxHighlighting.enable = true;
       enableVteIntegration = true;
+      history.ignoreAllDups = true;
+      plugins = [
+        {
+          name = "zsh-autosuggestions";
+          src = pkgs.fetchFromGitHub {
+            owner = "zsh-users";
+            repo = "zsh-autosuggestions";
+            rev = "v0.7.0";
+            sha256 = "";
+          };
+        }
+      ];
       oh-my-zsh =
         {
           enable = true;
