@@ -15,6 +15,10 @@
           theme = "nicoulaj";
           plugins = [
             "fzf"
+            "rust"
+            "sudo"
+            "tmux"
+            "zsh-interactive-cd"
           ];
         };
       history = {
