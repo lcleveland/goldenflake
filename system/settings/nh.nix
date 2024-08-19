@@ -11,7 +11,7 @@ in
     };
     flake_location = lib.mkOption {
       type = lib.types.path;
-      default = "";
+      default = "/home";
       description = lib.mdDoc "Path to the nix flake.";
     };
   };

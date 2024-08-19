@@ -13,11 +13,11 @@
       layout = "us";
       variant = "colemak_dh";
     };
+    nh.flake_location = "/home/lcleveland/Flakes/goldenflake";
   };
   users = {
     lcleveland = {
       enable = true;
     };
   };
-  nh.flake_location = "/home/lcleveland/Flakes/goldenflake";
 }
