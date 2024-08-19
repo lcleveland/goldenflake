@@ -19,4 +19,5 @@
       enable = true;
     };
   };
+  nh.flake_location = "/home/lcleveland/Flakes/goldenflake";
 }

@@ -27,5 +27,6 @@
     ./cpu.nix
     ./terminal.nix
     ./editor.nix
+    ./nh.nix
   ];
 }
