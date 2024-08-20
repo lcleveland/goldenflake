@@ -14,6 +14,7 @@
       layout = "us";
       variant = "";
     };
+    nh.flake_location = "/home/lcleveland/Flakes/goldenflake";
   };
   users = {
     lcleveland = {
