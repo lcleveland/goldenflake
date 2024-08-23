@@ -12,5 +12,6 @@
     ./dns.nix
     ./fonts.nix
     ./fzf.nix
+    ./twingate.nix
   ];
 }
