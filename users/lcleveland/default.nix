@@ -54,7 +54,7 @@ in
     };
     default_browser = lib.mkOption {
       description = lib.mdDoc "The default browser";
-      default = "opera";
+      default = "vivaldi";
       type = lib.types.str;
     };
   };
