@@ -10,5 +10,6 @@
     ./ffuf.nix
     ./wireshark.nix
     ./metasploit.nix
+    ./kiterunner.nix
   ];
 }
