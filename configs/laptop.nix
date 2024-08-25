@@ -14,6 +14,10 @@
       variant = "colemak_dh";
     };
     nh.flake_location = "/home/lcleveland/Flakes/goldenflake";
+    ollama = {
+      enable = true;
+      acceleration = false;
+    };
   };
   users = {
     lcleveland = {
