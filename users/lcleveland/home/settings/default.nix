@@ -13,6 +13,5 @@
     ./fonts.nix
     ./fzf.nix
     ./twingate.nix
-    ./firewall.nix
   ];
 }
