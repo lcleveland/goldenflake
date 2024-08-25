@@ -29,7 +29,7 @@ in
     };
     groups = lib.mkOption {
       description = lib.mdDoc "The groups of the Lyle user";
-      default = [ "wheel" "networkmanager" "libvirtd" "kvm" "kismet" ];
+      default = [ "wheel" "networkmanager" "libvirtd" "kvm" "kismet" "docker" ];
       type = lib.types.listOf lib.types.str;
     };
     state_version = lib.mkOption {
