@@ -19,6 +19,7 @@ in
     services.ollama = {
       enable = cfg.enable;
       acceleration = cfg.acceleration;
+      host = "0.0.0.0";
     };
   };
 }
