@@ -29,5 +29,6 @@ in
       shells.${cfg.shell}.enable = true;
       terminals.${cfg.emulator}.enable = true;
     };
+    xdg.terminal-exec.enable = true;
   };
 }
