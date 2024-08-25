@@ -33,7 +33,7 @@ in
       enable = true;
       settings = {
         default = [
-          "kitty.desktop"
+          "${cfg.emulator}.desktop"
         ];
       };
     };
