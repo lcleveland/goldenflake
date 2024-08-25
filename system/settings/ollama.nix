@@ -10,7 +10,12 @@ in
       description = lib.mdDoc "Enable Ollama";
     };
     acceleration = lib.mkOption {
-      type = lib.types.str;
+      type = lib.types.enum [
+        "cuda"
+        "rocm"
+        false
+        null
+      ];
       default = null;
       description = lib.mdDoc "Acceleration method";
     };
