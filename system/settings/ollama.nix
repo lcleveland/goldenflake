@@ -21,5 +21,6 @@ in
       acceleration = cfg.acceleration;
       host = "0.0.0.0";
     };
+    networking.firewall.allowedTCPPorts = [ 11434 ];
   };
 }
