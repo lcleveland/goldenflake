@@ -28,5 +28,6 @@
     ./terminal.nix
     ./editor.nix
     ./nh.nix
+    ./ollama.nix
   ];
 }

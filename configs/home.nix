@@ -15,6 +15,10 @@
       variant = "";
     };
     nh.flake_location = "/home/lcleveland/Flakes/goldenflake";
+    ollama = {
+      enable = true;
+      acceleration = "cuda";
+    };
   };
   users = {
     lcleveland = {
