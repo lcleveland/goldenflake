@@ -33,14 +33,14 @@ in
       gnome-console
       gnome-connections
       gnome-text-editor
+      gnome-characters
+      gnome-music
       gedit
       epiphany
       geary
       evince
       totem
     ]) ++ (with pkgs.gnome; [
-      gnome-characters
-      gnome-music
     ]);
     nixpkgs.overlays = [
       (final: prev: {
