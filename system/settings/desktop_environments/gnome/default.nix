@@ -25,7 +25,7 @@ in
           xterm.enable = false;
         };
       };
-      udev.packages = with pkgs.gnome; [ gnome-settings-daemon ];
+      udev.packages = with pkgs; [ gnome-settings-daemon ];
     };
     environment.gnome.excludePackages = (with pkgs; [
       gnome-tour
