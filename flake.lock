@@ -224,6 +224,11 @@
         "owner": "nix-community",
         "repo": "nixvim",
         "rev": "5f4a4b47597d3b9ac26c41ff4e8da28fa662f200",
+        "lastModified": 1727633223,
+        "narHash": "sha256-JszzTEryN7mmO0FR70PcuBSVhWleFjBuchEhM4XLDg4=",
+        "owner": "nix-community",
+        "repo": "nixvim",
+        "rev": "844336ceb2e9c3b3509dda3a0b7917bbc8f7a08e",
         "type": "github"
       },
       "original": {
