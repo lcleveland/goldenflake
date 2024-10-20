@@ -2,7 +2,7 @@
   imports = [
     ./bruno.nix
     ./caido.nix
-    ./cutter.nix
+    # ./cutter.nix
     ./flipper.nix
     ./gdu.nix
     ./nmap.nix
