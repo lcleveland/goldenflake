@@ -20,5 +20,6 @@
     ./fira_code.nix
     ./browsers
     ./kali
+    ./virtualgl.nix
   ];
 }
