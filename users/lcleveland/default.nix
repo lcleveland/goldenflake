@@ -34,7 +34,7 @@ in
     };
     state_version = lib.mkOption {
       description = lib.mdDoc "The NixOS state version to use";
-      default = "24.05";
+      default = "25.05";
       type = lib.types.str;
     };
     default_shell = lib.mkOption {
